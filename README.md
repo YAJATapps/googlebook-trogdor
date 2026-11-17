@@ -1,6 +1,6 @@
 # googlebook-trogdor
 
-Standalone **Bring-Your-Own-Files (BYOF)** converter script that adapts user-supplied Googlebook OS (`mica`, Android 17 / SDK 37) system partitions to boot on **Qualcomm Snapdragon 7c / SC7180 (`trogdor`) Chromebooks** from external USB/SD storage using a LineageOS 24 Trogdor hardware base.
+Standalone **Bring-Your-Own-Files (BYOF)** converter script that adapts user-supplied Googlebook OS (`mica`, Android 17 / SDK 37) system partitions to boot on **Qualcomm Snapdragon 7c / SC7180 (`trogdor`) Chromebooks** from external USB/SD storage using a LineageOS 24 Trogdor hardware base (v3 was tested with it, newer ones fail due to some partition changes and more).
 
 > [!NOTE]
 > **Experimental Status:** Boots to the Googlebook desktop UI (`NexusLauncher`, taskbar, quick settings, apps), though early `mica` desktop builds remain buggy on non-native Chromebook hardware. Released as-is for research and tinkering.
